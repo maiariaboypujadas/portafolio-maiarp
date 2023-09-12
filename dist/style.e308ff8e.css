@@ -506,19 +506,14 @@ body {
         padding: 0;
     }
 
-    .coffee {
+    .education {
         padding: 30px;
     }
-    .coffee-content h2 {
+    .education-content h2 {
         padding: 0;
     }
     .txt-p {
         padding: 0;
-    }
-
-    .coffee-group {
-        flex-direction: column;
-        margin-bottom: 0;
     }
 
 
