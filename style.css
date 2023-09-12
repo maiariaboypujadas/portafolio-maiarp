@@ -64,6 +64,26 @@ body {
   cursor: pointer;
   display: none; 
 }
+
+#menu:checked ~ .navbar {
+  display: block;
+  position: absolute;
+  top: 60px;
+  right: 0; 
+  background-color: transparent; 
+  padding: 20px; 
+  z-index: 999; 
+}
+
+#menu:checked ~ .navbar ul li {
+  float: none; 
+  width: 100%;
+  text-align: right; 
+}
+
+#menu:checked ~ .navbar ul li a:hover {
+  color: plum;
+}
 .informacion {
     padding: 50px 0;
     margin-top: 100px; 
@@ -163,6 +183,8 @@ body {
     background-image: linear-gradient(to right, #e1f3e1 0%, #e1f3 100%);
   background-size: cover;
   background-repeat: no-repeat; 
+  height: 1100px;
+
   }
   .education-content {
     width: 50%;
@@ -277,10 +299,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: 100vw;
     background-image: linear-gradient(to right, #e1f3e1 0%, #e1f3 100%);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 1100px;
     
   }
   
@@ -288,7 +311,6 @@ body {
     width: 50%;
     max-width: 2000px;
     text-align: center;
-    padding: 2px;
   }
 
   .about-content h2 {
@@ -305,7 +327,7 @@ body {
   
   .txt-p {
     font-size: 20px;
-    color: grey;
+    color: black;
     flex-grow: 1;
     white-space: normal;
     margin-top: 20px;
@@ -334,10 +356,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: 100vw;
     background-image: linear-gradient(to right, #e1f3e1 0%, #e1f3 100%);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 1200px;
   
   }
   
@@ -474,7 +497,7 @@ body {
     font-family:sans-serif;
 }
 
-@media(max-width:991px) {
+@media(max-width:900px) {
     .menu {
         padding: 30px;
     }
@@ -515,8 +538,40 @@ body {
     .txt-p {
         padding: 0;
     }
+ .about {
+  padding: 30px;
+ }
+ .about-content {
+  padding: 0;
+ }
+ .projects {
+  padding: 30px;
+ }
+ .projects-content {
+  padding: 0;
+ }
+ .projects-type {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .txt-p {
+  padding: 0;
+ }
+ .skillhub,
+ .videogame {
+   display: flex;
+   justify-content: center; 
+   align-items: center; 
+ }
 
-
+ .skillhub img,
+ .videogame img {
+   padding: 0;
+   max-width: 100%;
+   height: auto;
+ }
 }
 
 
