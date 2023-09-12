@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.e308ff8e.css">
+<script src="/style.e308ff8e.js"></script></head>
+
+
+<body id="index">
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#index" class="logo">Maia Riaboy Pujadas</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="/menu.168145c2.png" class="menu-icono" alt="">
+            </label>
+        <nav class="navbar">
+        <ul>
+            <li><a href="#index">Home</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#projects">Projects</a></li>
+        </ul>
+
+    </nav>
+</div>
+</header>
+
+<!-- INFORMACION DEL TEXTO -->
+<section class="informacion">
+    <div class="header-content container">
+        <div class="header-txt">
+            <h1>Hello!  I'm Maia </h1>
+            <h2>Full Stack Developer 💻</h2>
+            <p>I'm a web developer. I'm excited to start new challenges, apply my skills, and expand my knowledge.</p>
+            <div class="content-contact">
+                    <button class="contact" onclick="mostrarSeccionContacto()">Contact Me</button>
+            </div>
+            <div class="content-contact2">
+
+                <div class="contact2" id="seccionContacto" style="display: none;">
+                    <div class="contact-info">
+                        <img src="/casa.ce60cb38.png" alt="">
+                        <h3>Argentina</h3>
+                    </div>
+                    <div class="contact-info">
+                        <img src="/gmail-logo-5.b4d38e01.png" alt="">
+                        <h3>maiariaboy24@gmail.com</h3>
+                    </div>
+                    <div class="contact-info">
+                        
+                        <a href="https://api.whatsapp.com/send?phone=543865207734"><img src="/whatsapp-logo-vector-1013x1024.78916099.png" alt=""></a>
+                        <a href="https://www.linkedin.com/in/maia-riaboy-pujadas-39379520a/" target="_blank"><img src="/Logo-LinkedIn-Round.df69e53d.webp" alt=""></a>
+                        <a href="https://github.com/maiariaboypujadas" target="_blank"><img src="/github_PNG40.a9c2f069.png" alt=""></a>
+                    </div>
+                    
+                </div>
+            </div>
+                
+           
+                <script>function mostrarSeccionContacto() {
+  var seccion = document.getElementById("seccionContacto");
+  if (seccion.style.display === "none") {
+    seccion.style.display = "block";
+  } else {
+    seccion.style.display = "none";
+  }
+}
+function mostrarSeccionContactoAndNavigateToHome() {
+  mostrarSeccionContacto();
+  window.location.href = '#index';
+}</script>
+        </div>
+    </div>
+</section>
+<!-- EDUCACION Y HABILIDADES  -->
+
+<section id="education" class="education">
+    <div class="education-content">
+        <div class="education-title">
+            <h3>Education</h3>
+            <ul class="completed">
+                <li><span class="tick-mark">&#x2713;</span>  Full Stack Developer 2023-2023 | HENRY</li>
+                <li><span class="tick-mark">&#x2713;</span>  Accountant 2017-2022 | UNSTA</li>
+            </ul>
+        </div>
+            <div class="titulo">
+            <h3>Skills</h3>
+            <ul class="habilidad">
+                <li><span class="tick-mark">&#x2713;</span>  Soft Skills</li>
+            </ul>
+            <div class="softskills-items">
+                <ul>
+                    <li>Curiosity</li>
+                    <li>Proactive</li>
+                    <li>Collaborative</li>
+                </ul>
+                <ul>
+                    <li>Adaptable</li>
+                    <li>Problem Solving</li>
+                    <li>Planning and organization</li>
+                </ul>
+            </div>
+            <ul class="habilidad">
+                <li><span class="tick-mark">&#x2713;</span>  Coding Skills</li>
+            </ul>
+            <div class="codingskills-items">
+                <div>
+                    <img src="/html.6d268039.img" alt=""><span>HTML</span>
+                </div>
+                <div>
+                    <img src="/CSS.NUEVA.b8bb4713.IMG" alt="">  <span>CSS</span>
+                </div>
+                <div>
+                    <img src="/JavaScript_Logo.NUEVO.4661e6dc.gif" alt=""> <span>JAVASCRIPT</span>
+                </div>
+                <div>
+                    <img src="/react-logo.778c5d73.png" alt=""><span>REACT</span>
+                </div>
+                <div>
+                    <img src="/GitHub-Symbol.03725da8.png" alt=""><span>GITHUB</span>
+                </div>
+                <div>
+                    <img src="/Node.js_logo_2015.svg.63a0b72b.png" alt=""><span>NODEJS</span>
+                </div>
+                <div>
+                    <img src="/MongoDB-EmblemNUEVO.9e18cf24.jpg" alt=""><span>MONGODB</span>
+                </div>
+                <div>
+                    <img src="/postgresql-logo1NUEVO.cc0c4ddc.png" alt=""> <span>POSTGRESQL</span>
+                </div>
+        </div>    
+        </div> 
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="about-content">
+      <h2>About me</h2>
+      <div class="about-info">
+        <div class="about-img">
+          <img src="/IMG_4123.3294c5e2.JPG" alt="">
+        </div>
+        <p class="txt-p">
+          I am an Accountant. I studied at the University of Santo Tomas de Aquino (UNSTA). Later, I discovered the world of programming and felt that it was meant for me. That's why I started my studies at Henry Bootcamp, and I am constantly learning and improving my skills.
+        </p>
+
+        <div class="content-contact">
+          <a href="#index" class="contact" onclick="mostrarSeccionContactoAndNavigateToHome()">Contact Me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+         
+    
+  
+
+<section id="projects" class="projects">
+        <div class="projects-content">
+            <h2>Projects</h2>
+            <div class="projects-type">
+                <ul>
+                    <li>Videogames App</li>
+                    <p class="tx-p">In this application you can see different types of videogames from an API, filter each videogame and search for them by name, you can also create your own videogame with validations. This was my first app, implementing back-end and front-end.</p>
+                </ul>
+                    </div>
+                    <div class="videogame">
+                        <img src="/videogames.3397fc2b.png" alt="">
+                <div class="logos-container">
+                    <a href="https://github.com/maiariaboypujadas/pi-videogames"><img src="/github_PNG40.a9c2f069.png" alt=""></a>
+                </div>
+                    </div>
+            <div class="projects-type">
+<ul>
+    <li>SkillHub</li>
+    <p class="tx-p">I made this application together with other colleagues. It is an App to hire occasional services. You will find a log in with validations with FireBase, payment gateway, creation of services with validations, localStorage and cloudinary, filtering, administrator profile with logical deletion to provide a better service to users.</p>
+</ul>
+            </div>
+            <div class="skillhub">
+                <img src="/skillhub.53415f9d.png" alt=""> 
+                <div class="logos-container">
+                    <a href="https://skillhub-production.netlify.app/"><img src="/websie.4eb2c7d0.png" alt=""></a>
+                    <a href="https://github.com/angeldvilla/skillHub-back"><img src="/github_PNG40.a9c2f069.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        
+        
+        
+</section>
+    
+    <footer class="footer">
+        <div class="foot-content container">
+        <div class="link">
+            <h3>Maia Riaboy Pujadas | Full Stack Developer</h3>
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+       
+        
+
+    </div>
+
+</footer>
+
+</body>
+</html>
