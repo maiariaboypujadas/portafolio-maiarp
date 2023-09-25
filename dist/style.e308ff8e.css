@@ -139,6 +139,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    gap: 10px;
   }
   .contact {
     background-color: palevioletred;
