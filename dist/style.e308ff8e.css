@@ -377,7 +377,7 @@ body {
     background-image: linear-gradient(to right, #e1f3e1 0%, #e1f3 100%);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1200px;
+  height: 1400px;
   min-width: 480px;
   margin-bottom: 10px;
   }
@@ -522,82 +522,6 @@ body {
     font-family:sans-serif;
 }
 
-/* @media(max-width:900px) {
-    .menu {
-        padding: 30px;
-    }
-    .menu label {
-        display: initial;
-    }
-    .menu .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background-color: grey;
-        display: none;
-    }
-    .menu .navbar ul li {
-        width: 100%;
-    }
-    .menu:checked ~ .navbar {
-        display: initial;
-    }
-
-    .header {
-        min-height: 0vh;
-    }
-    .header-content {
-        padding: 100px 30px;
-    }
-    .header-content p {
-        padding: 0;
-    }
-
-    .education {
-        padding: 30px;
-    }
-    .education-content h2 {
-        padding: 0;
-    }
-    .txt-p {
-        padding: 0;
-    }
- .about {
-  padding: 30px;
- }
- .about-content {
-  padding: 0;
- }
- .projects {
-  padding: 30px;
- }
- .projects-content {
-  padding: 0;
- }
- .projects-type {
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- }
- .txt-p {
-  padding: 0;
- }
- .skillhub,
- .videogame {
-   display: flex;
-   justify-content: center; 
-   align-items: center; 
- }
-
- .skillhub img,
- .videogame img {
-   padding: 0;
-   max-width: 100%;
-   height: auto;
- }
-} */
 
 @media(max-width:480px) {
   .menu {
@@ -629,9 +553,15 @@ body {
 }
 .header-content p {
     padding: 0;
+
+}
+.header-txt h1, h2 {
+  font-size: 100px;
+  margin: 20px;
 }
 .header-txt p {
   font-size: 25px;
+  margin: 20px;
 }
 .education {
     padding: 15px;
@@ -662,6 +592,8 @@ align-items: center;
 }
 .txt-p {
 padding: 0;
+margin: 20px;
+
 }
 .skillhub,
 .videogame {
@@ -675,6 +607,10 @@ align-items: center;
 padding: 0;
 max-width: 100%;
 height: auto;
+}
+.tx-p {
+  margin: 20px;
+
 }
 }
 
